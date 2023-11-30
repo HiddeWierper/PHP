@@ -37,9 +37,6 @@
 			
 			echo "De cursus ", $a, " ", $b, " ", $c, "rstellingen\" kan vanavond helaas niet doorgaan.";
 			echo "<br>-Herman Finkers";	
-
-			echo "<h1>Opdracht 5</h1>";
-	  
 		 	?>
   </body>
 </html>
