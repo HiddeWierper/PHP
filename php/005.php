@@ -47,18 +47,18 @@ if (isset($_POST['apen'])) {
   $selectedApen = $_POST['apen']; 
   foreach ($selectedApen as $aap) {
     $number = substr($aap, 3);
-    echo "<img src='/phps/images/apen/apen/aap{$number}.jpg' alt=''>";
+    echo "<img src='/school_php/images/apen/apen/aap{$number}.jpg' alt=''>";
   }
 }
 ?>
 
 <h1>Opdracht 4</h1>
 <?php
-$host = 'localhost';
+$host = '192.168.1.111';
 $port='3306';
 $user = 'root';
-$pass = '';
-$db= 'phpschool';
+$pass = 'Wierper1411';
+$db= 'schoolschool';
 $dbh = new PDO('mysql: host=' . $host.'; dbname='.$db
               .'; port=' . $port, $user, $pass);
 

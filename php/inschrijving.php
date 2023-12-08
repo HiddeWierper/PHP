@@ -3,7 +3,7 @@ $host = 'localhost';
 $port = '3306';
 $user = 'root';
 $pass = '';
-$db = 'phpschool';
+$db = 'schoolchool';
 
 try {
     // Establish a database connection
@@ -51,7 +51,7 @@ const intervalId = setInterval(() => {
     i--;
   } else {
     clearInterval(intervalId);
-    window.location.href = '/phps/php/005.php'; 
+    window.location.href = '/school_php/php/005.php'; 
   }
 }, 1000);
 </script>

@@ -12,7 +12,7 @@
   echo "<h1>Opdracht 1</h1>";
 
   for ($number = 1; $number <= 9; $number++) {
-    $aap = "/phps/images/apen/apen/aap$number.jpg";
+    $aap = "/school_php/images/apen/apen/aap$number.jpg";
     echo "<img src='$aap'>";
   }
 
@@ -21,7 +21,7 @@
   $bomen = array("img_0050.jpg", "lillypilly1.jpg", "Maranchery_Biyyam_Kayal_kandal.jpg", "weeping-elm.jpg", "weeping-elm0091.jpg");
 
   foreach ($bomen as $boom) {
-      echo "<img src='/phps/images/bomen/bomen/" . $boom . "'>";
+      echo "<img src='/school_php/images/bomen/bomen/" . $boom . "'>";
   }
 
   echo "<h1>Opdracht 3</h1>";
