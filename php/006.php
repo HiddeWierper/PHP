@@ -24,10 +24,16 @@ if ($_SESSION["loggedin"] === true) {
 }
 
 try {
-  $host = 'thuis.wierper.net';
+  //when on server remove //
+  // $host = 'thuis.wierper.net';
+  // $pass = 'Wierper1411';
+
+  //when on localhost add //
+  $pass = '';
+  $host = 'localhost';
   $port='3306';
   $user = 'root';
-  $pass = 'Wierper1411';
+  
   $db= 'login';
   $dbh = new PDO('mysql: host=' . $host.'; dbname='.$db
                 .'; port=' . $port, $user, $pass);

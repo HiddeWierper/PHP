@@ -54,6 +54,8 @@ if (isset($_POST['apen'])) {
 
 <h1>Opdracht 4</h1>
 <?php
+
+
 $host = '192.168.1.111';
 $port='3306';
 $user = 'root';
