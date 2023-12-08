@@ -26,10 +26,10 @@ if ($_SESSION["loggedin"] === true) {
 }
 
 try {
-  $host = 'localhost';
+  $host = '192.168.1.111';
   $port='3306';
   $user = 'root';
-  $pass = '';
+  $pass = 'Wierper1411';
   $db= 'login';
   $dbh = new PDO('mysql: host=' . $host.'; dbname='.$db
                 .'; port=' . $port, $user, $pass);
