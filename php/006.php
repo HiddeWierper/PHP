@@ -18,8 +18,6 @@
 <?php
 
 session_start();
-
-// Check if the user is already logged in, if yes then redirect him to the welcome page
 if ($_SESSION["loggedin"] === true) {
     header("location: admin.php");
     exit;
@@ -33,7 +31,6 @@ try {
   $db= 'login';
   $dbh = new PDO('mysql: host=' . $host.'; dbname='.$db
                 .'; port=' . $port, $user, $pass);
-    // Set the PDO error mode to exception
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     echo "Database Connection successful<br><br>";
 } catch (PDOException $e) {
