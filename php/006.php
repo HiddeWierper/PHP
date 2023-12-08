@@ -24,7 +24,7 @@ if ($_SESSION["loggedin"] === true) {
 }
 
 try {
-  $host = '192.168.1.111';
+  $host = 'thuis.wierper.net';
   $port='3306';
   $user = 'root';
   $pass = 'Wierper1411';
